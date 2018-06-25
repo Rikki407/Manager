@@ -2,13 +2,17 @@ import React, { Component } from 'react';
 import { Card, CardSection, Input, Button } from './common';
 
 class LoginForm extends Component {
+    onEmailrChange(text) {
+        
+    }
     render() {
         return (
             <Card>
                 <CardSection>
                     <Input 
                         label="Email"
-                        placeholder="email@gmail.com"    
+                        placeholder="email@gmail.com" 
+                        onChangeText={this.onEmailrChange.bind(this)}   
                     />
                     
                 </CardSection>
@@ -30,4 +34,3 @@ class LoginForm extends Component {
 }
 
 export default LoginForm;
- 
