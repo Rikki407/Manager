@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardSection, Input, Button } from './common';
+
 class EmployeeCreateForm extends Component {
     render() {
         return (
