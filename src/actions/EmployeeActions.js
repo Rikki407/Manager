@@ -4,7 +4,7 @@ import {
 
 export const employeeUpdate = ({ prop, value }) => {
     return {
-        key: EMPLOYEE_UPDATE,
+        type: EMPLOYEE_UPDATE,
         payload: { prop, value }
     };
 };
