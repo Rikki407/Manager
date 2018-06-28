@@ -1,10 +1,10 @@
 import { 
-    EMPLYEE_UPDATE 
+    EMPLOYEE_UPDATE 
 } from './types';
 
-export const EmployeeUpdate = ({ prop, value }) => {
+export const employeeUpdate = ({ prop, value }) => {
     return {
-        key: EMPLYEE_UPDATE,
+        key: EMPLOYEE_UPDATE,
         payload: { prop, value }
     };
 };
