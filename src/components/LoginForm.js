@@ -6,7 +6,7 @@ import { emailChanged, passwordChange, loginUser } from '../actions';
 
 
 class LoginForm extends Component {
-    onEmailrChange(text) {
+    onEmailChange(text) {
         this.props.emailChanged(text);
     }
     onPasswordChange(text) {
@@ -44,7 +44,7 @@ class LoginForm extends Component {
                     <Input 
                         label="Email"
                         placeholder="email@gmail.com" 
-                        onChangeText={this.onEmailrChange.bind(this)}   
+                        onChangeText={this.onEmailChange.bind(this)}   
                         value={this.props.email}
                     />
                     
